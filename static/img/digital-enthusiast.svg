@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- 数码爱好者 -->
+  <circle cx="100" cy="70" r="40" fill="#FFD700"/> <!-- 头 -->
+  <rect x="70" y="110" width="60" height="80" fill="#4682B4"/> <!-- 身体 -->
+  <line x1="70" y1="120" x2="50" y2="150" stroke="black" stroke-width="2"/> <!-- 左手 -->
+  <line x1="130" y1="120" x2="150" y2="150" stroke="black" stroke-width="2"/> <!-- 右手 -->
+  <circle cx="85" cy="60" r="5" fill="black"/> <!-- 左眼 -->
+  <circle cx="115" cy="60" r="5" fill="black"/> <!-- 右眼 -->
+  <path d="M85 80 Q100 90 115 80" fill="none" stroke="black" stroke-width="2"/> <!-- 嘴 -->
+  <path d="M75 50 Q100 40 125 50" fill="none" stroke="black" stroke-width="2"/> <!-- 头发 -->
+  <path d="M80 55 L120 55" stroke="black" stroke-width="2" fill="none"/> <!-- 眼镜框 -->
+  <path d="M80 55 L75 60" stroke="black" stroke-width="2" fill="none"/> <!-- 眼镜腿左 -->
+  <path d="M120 55 L125 60" stroke="black" stroke-width="2" fill="none"/> <!-- 眼镜腿右 -->
+  
+  <!-- 智能手机 -->
+  <rect x="140" y="140" width="30" height="50" rx="5" fill="black"/>
+  <rect x="143" y="145" width="24" height="40" fill="#00FFFF"/>
+  
+  <!-- 平板电脑 -->
+  <rect x="30" y="130" width="60" height="40" rx="5" fill="black"/>
+  <rect x="33" y="133" width="54" height="34" fill="#7FFFD4"/>
+  
+  <!-- 智能手表 -->
+  <rect x="45" y="180" width="20" height="25" rx="5" fill="silver"/>
+  <rect x="48" y="183" width="14" height="19" fill="#000080"/>
+  
+  <!-- 笔记本电脑 -->
+  <path d="M10 100 L50 80 L90 100 Z" fill="#A9A9A9"/> <!-- 屏幕 -->
+  <rect x="10" y="100" width="80" height="5" fill="#808080"/> <!-- 键盘 -->
+  
+  <!-- 智能音箱 -->
+  <circle cx="180" cy="50" r="20" fill="#1E90FF"/>
+  <circle cx="180" cy="50" r="10" fill="#00BFFF"/>
+  <circle cx="180" cy="50" r="5" fill="#87CEFA"/>
+</svg>

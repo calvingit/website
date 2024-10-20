@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- 开发者 -->
+  <circle cx="100" cy="70" r="40" fill="#FFD700"/> <!-- 头 -->
+  <rect x="70" y="110" width="60" height="80" fill="#4682B4"/> <!-- 身体 -->
+  <line x1="70" y1="120" x2="50" y2="150" stroke="black" stroke-width="2"/> <!-- 左手 -->
+  <line x1="130" y1="120" x2="150" y2="150" stroke="black" stroke-width="2"/> <!-- 右手 -->
+  <circle cx="85" cy="60" r="5" fill="black"/> <!-- 左眼 -->
+  <circle cx="115" cy="60" r="5" fill="black"/> <!-- 右眼 -->
+  <path d="M85 80 Q100 90 115 80" fill="none" stroke="black" stroke-width="2"/> <!-- 嘴 -->
+  <path d="M75 50 Q100 40 125 50" fill="none" stroke="black" stroke-width="2"/> <!-- 头发 -->
+  <path d="M80 55 L120 55" stroke="black" stroke-width="2" fill="none"/> <!-- 眼镜框 -->
+  <path d="M80 55 L75 60" stroke="black" stroke-width="2" fill="none"/> <!-- 眼镜腿左 -->
+  <path d="M120 55 L125 60" stroke="black" stroke-width="2" fill="none"/> <!-- 眼镜腿右 -->
+  
+  <!-- 电脑 -->
+  <rect x="30" y="150" width="140" height="80" rx="10" fill="#C0C0C0"/>
+  <rect x="40" y="160" width="120" height="60" fill="#4CAF50"/>
+  <text x="60" y="200" font-family="Arial" font-size="30" fill="white">&lt;/&gt;</text>
+  
+  <!-- 手机 -->
+  <rect x="180" y="120" width="30" height="50" rx="5" fill="black"/>
+  <rect x="183" y="125" width="24" height="40" fill="white"/>
+  <circle cx="195" cy="170" r="2" fill="white"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- 背景圆 - 代表整体性和完整性 -->
+  <circle cx="100" cy="100" r="98" fill="#3AA7DA"/>
+
+  <!-- 眼镜 - 代表科技感和智慧 -->
+  <path d="M50 90 L150 90" stroke="white" stroke-width="8" fill="none"/>
+  <circle cx="70" cy="90" r="25" fill="none" stroke="white" stroke-width="6"/>
+  <circle cx="130" cy="90" r="25" fill="none" stroke="white" stroke-width="6"/>
+
+  <!-- 代码符号 - 代表App开发 -->
+  <text x="70" y="140" font-family="Arial" font-size="40" fill="white">&lt;/&gt;</text>
+
+  <!-- 三个小圆圈 - 代表三个孩子 -->
+  <circle cx="60" cy="165" r="12" fill="#FFD700"/>
+  <circle cx="100" cy="165" r="12" fill="#FF69B4"/>
+  <circle cx="140" cy="165" r="12" fill="#32CD32"/>
+</svg>

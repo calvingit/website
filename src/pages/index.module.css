@@ -1,0 +1,58 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1200px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.headerSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.buttons {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+/* 要求右对齐，当做背景*/
+.backgroud {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+}
+.backgroundImage {
+  /* height: 600;
+  width: 600; */
+  max-width: 100%;
+  height: auto;
+}
+
+/* 媒体查询：在手机竖屏时隐藏右边的元素 */
+@media (max-width: 600px) {
+  .backgroundImage {
+    display: none;
+  }
+  .buttons {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.welcome {
+  text-align: left;
+}

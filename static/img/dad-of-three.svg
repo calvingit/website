@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- 父亲 -->
+  <circle cx="100" cy="70" r="40" fill="#FFD700"/> <!-- 头 -->
+  <path d="M60 120 Q100 160 140 120" fill="#4682B4"/> <!-- 身体 -->
+  <line x1="80" y1="130" x2="70" y2="170" stroke="black" stroke-width="2"/> <!-- 左腿 -->
+  <line x1="120" y1="130" x2="130" y2="170" stroke="black" stroke-width="2"/> <!-- 右腿 -->
+  <line x1="75" y1="125" x2="60" y2="140" stroke="black" stroke-width="2"/> <!-- 左手 -->
+  <line x1="125" y1="125" x2="140" y2="140" stroke="black" stroke-width="2"/> <!-- 右手 -->
+  <circle cx="85" cy="60" r="5" fill="black"/> <!-- 左眼 -->
+  <circle cx="115" cy="60" r="5" fill="black"/> <!-- 右眼 -->
+  <path d="M85 80 Q100 90 115 80" fill="none" stroke="black" stroke-width="2"/> <!-- 嘴 -->
+  <path d="M75 50 Q100 40 125 50" fill="none" stroke="black" stroke-width="2"/> <!-- 头发 -->
+  <path d="M80 55 L120 55" stroke="black" stroke-width="2" fill="none"/> <!-- 眼镜框 -->
+  <path d="M80 55 L75 60" stroke="black" stroke-width="2" fill="none"/> <!-- 眼镜腿左 -->
+  <path d="M120 55 L125 60" stroke="black" stroke-width="2" fill="none"/> <!-- 眼镜腿右 -->
+  
+  <!-- 孩子们 -->
+  <circle cx="50" cy="150" r="20" fill="#87CEEB"/> <!-- 孩子1 -->
+  <circle cx="100" cy="160" r="20" fill="#FF69B4"/> <!-- 孩子2 -->
+  <circle cx="150" cy="150" r="20" fill="#32CD32"/> <!-- 孩子3 -->
+  
+  <!-- 孩子们的面部特征 -->
+  <circle cx="45" cy="145" r="3" fill="black"/> <!-- 孩子1左眼 -->
+  <circle cx="55" cy="145" r="3" fill="black"/> <!-- 孩子1右眼 -->
+  <path d="M45 155 Q50 158 55 155" fill="none" stroke="black" stroke-width="1"/> <!-- 孩子1嘴 -->
+  
+  <circle cx="95" cy="155" r="3" fill="black"/> <!-- 孩子2左眼 -->
+  <circle cx="105" cy="155" r="3" fill="black"/> <!-- 孩子2右眼 -->
+  <path d="M95 165 Q100 168 105 165" fill="none" stroke="black" stroke-width="1"/> <!-- 孩子2嘴 -->
+  
+  <circle cx="145" cy="145" r="3" fill="black"/> <!-- 孩子3左眼 -->
+  <circle cx="155" cy="145" r="3" fill="black"/> <!-- 孩子3右眼 -->
+  <path d="M145 155 Q150 158 155 155" fill="none" stroke="black" stroke-width="1"/> <!-- 孩子3嘴 -->
+</svg>
