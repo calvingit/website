@@ -14,6 +14,8 @@ tags: [Flutter]
 
 在 Flutter 应用开发中，Repository 模式是一种重要的架构设计模式，它帮助我们有效地管理和访问不同数据源的数据。通过将数据访问逻辑与业务逻辑和用户界面分离，Repository 模式能够提高代码的可维护性和可测试性。本文将深入探讨 Repository 模式的定义、使用场景、实现细节以及如何进行测试。
 
+![Flutter App 架构图](https://cdn.zhangwen.site/uPic/repository-pattern.png)
+
 <!-- truncate -->
 
 ## 什么是 Repository 模式？
