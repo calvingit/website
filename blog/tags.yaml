@@ -1,0 +1,29 @@
+ios:
+  label: iOS
+  permalink: /ios
+  description: iOS 开发相关内容
+
+flutter:
+  label: Flutter
+  permalink: /flutter
+  description: Flutter 开发相关内容
+
+invest:
+  label: 投资
+  permalink: /invest
+  description: 亏钱相关内容
+
+softwares:
+  label: 软件
+  permalink: /softwares
+  description: 软件使用相关内容
+
+thoughts:
+  label: 观点
+  permalink: /thoughts
+  description: 胡思乱想
+
+others:
+  label: 其他
+  permalink: /others
+  description: 其他内容

@@ -351,12 +351,12 @@ class WeatherScreen extends ConsumerWidget {
 另外，将 Repository 模式与 Flutter 的状态管理解决方案结合使用，可以有效地分离数据访问逻辑和 UI 状态管理。这种架构不仅提高了代码的可维护性，还增强了应用程序的可测试性。无论是使用 BLoC、Provider，还是 Riverpod，都可以根据项目需求选择合适的状态管理方案，以实现最佳的开发体验和应用性能。
 
 参考文章：
-- [1] https://blog.csdn.net/gitblog_00068/article/details/139366383
-- [2] https://flutter.ducafecat.com/pubs/state-management-packages
-- [3] https://juejin.cn/post/7163925807893577735
-- [4] https://www.rtcdeveloper.cn/cn/community/blog/23871
-- [5] https://docs.flutter.cn/community/tutorials/state-management-package-getx-provider-analysis/
-- [6] https://blog.csdn.net/eclipsexys/article/details/124811671
-- [7] https://dev.to/marwamejri/flutter-clean-architecture-1-an-overview-project-structure-4bhf
-- [8] https://docs.flutter.cn/data-and-backend/state-mgmt/options/
-- [9] (https://codewithandrea.com/articles/flutter-repository-pattern/)
+- https://blog.csdn.net/gitblog_00068/article/details/139366383
+- https://flutter.ducafecat.com/pubs/state-management-packages
+- https://juejin.cn/post/7163925807893577735
+- https://www.rtcdeveloper.cn/cn/community/blog/23871
+- https://docs.flutter.cn/community/tutorials/state-management-package-getx-provider-analysis/
+- https://blog.csdn.net/eclipsexys/article/details/124811671
+- https://dev.to/marwamejri/flutter-clean-architecture-1-an-overview-project-structure-4bhf
+- https://docs.flutter.cn/data-and-backend/state-mgmt/options/
+- https://codewithandrea.com/articles/flutter-repository-pattern/

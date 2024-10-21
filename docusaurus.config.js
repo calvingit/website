@@ -31,7 +31,7 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans'],
+    locales: ['zh-Hans', 'en'],
   },
 
   presets: [
@@ -101,23 +101,15 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: '标签',
+            title: '链接',
             items: [
               {
-                label: 'iOS',
-                to: '/blog/tags/ios',
+                label: '博客',
+                to: '/blog',
               },
               {
-                label: 'Flutter',
-                to: '/blog/tags/flutter',
-              },
-              {
-                label: '软件',
-                to: '/blog/tags/softwares',
-              },
-              {
-                label: '其他',
-                to: '/blog/tags/others',
+                label: '摸鱼精选',
+                to: '/docs/intro',
               },
             ],
           },
@@ -154,6 +146,7 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+        additionalLanguages: ['dart', 'ruby'],
       },
     }),
 };

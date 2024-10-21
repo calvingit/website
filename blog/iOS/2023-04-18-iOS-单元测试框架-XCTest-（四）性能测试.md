@@ -1,7 +1,7 @@
 ---
 title: iOS 单元测试框架 XCTest （四）性能测试
 description: "iOS 单元测试框架 XCTest （四）性能测试"
-slug: ios-dan-yuan-ce-shi-kuang-jia-xctest-san-xing-neng-ce-shi
+slug: ios-unit-test-performance
 date: 2023-04-18
 tags: [iOS]
 ---
