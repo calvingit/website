@@ -291,16 +291,17 @@ class CartScreen extends ConsumerWidget {
 
 - **性能优化**：Riverpod 在性能方面进行了优化，确保只有受影响的部分会重新构建，从而减少不必要的重绘。
 
-### 总结
+## 总结
 
 Riverpod 是一个功能强大且灵活的状态管理库，适用于 Flutter 应用程序。它通过提供多种类型的 Provider 和改进的依赖注入机制，使得状态管理变得更加高效和可维护。在真实开发场景中，Riverpod 可以帮助开发者轻松管理复杂应用中的各种状态，从而提高开发效率和代码质量。
 
 参考文章:
-[1] https://kamranhccp.hashnode.dev/flutter-riverpod-20-the-full-ultimate-guide
-[2] https://blog.csdn.net/eclipsexys/article/details/124811671
-[3] https://juejin.cn/post/7163925807893577735
-[4] https://riverpod.dev/docs/introduction/getting_started
-[5] https://www.dbestech.com/tutorials/flutter-riverpod-new-version
-[6] https://blog.stackademic.com/flutter-app-architecture-inspiring-domain-driven-design-d681e5e7c0c6?gi=9f48a45ccd83
-[7] https://docs.flutter.cn/data-and-backend/state-mgmt/options/
-[8] https://www.intelivita.com/blog/flutter-architecture/
+
+- https://kamranhccp.hashnode.dev/flutter-riverpod-20-the-full-ultimate-guide
+- https://blog.csdn.net/eclipsexys/article/details/124811671
+- https://juejin.cn/post/7163925807893577735
+- https://riverpod.dev/docs/introduction/getting_started
+- https://www.dbestech.com/tutorials/flutter-riverpod-new-version
+- https://blog.stackademic.com/flutter-app-architecture-inspiring-domain-driven-design-d681e5e7c0c6?gi=9f48a45ccd83
+- https://docs.flutter.cn/data-and-backend/state-mgmt/options/
+- https://www.intelivita.com/blog/flutter-architecture/
