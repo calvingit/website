@@ -6,6 +6,12 @@ date: 2022-05-08
 tags: [Flutter]
 ---
 
+:::info
+
+2024.10.20 更新: 补充 Repository 与状态管理结合的解决方案
+
+:::
+
 在 Flutter 应用开发中，Repository 模式是一种重要的架构设计模式，它帮助我们有效地管理和访问不同数据源的数据。通过将数据访问逻辑与业务逻辑和用户界面分离，Repository 模式能够提高代码的可维护性和可测试性。本文将深入探讨 Repository 模式的定义、使用场景、实现细节以及如何进行测试。
 
 <!-- truncate -->
@@ -109,9 +115,11 @@ void main() {
 }
 ```
 
-## 抽象类与具体类
+## 抽象类还是具体类
 
-在创建 Repository 时，有人可能会问是否真的需要抽象类。以下是两种方法的一些优缺点：
+在创建 Repository 时，有人可能会问是否真的需要抽象类。
+
+以下是两种方法的一些优缺点：
 
 ### 使用抽象类
 
@@ -132,33 +140,9 @@ void main() {
 - **缺点**：
   - 如果需要更换实现，可能需要修改更多地方。
 
-## Repository 模式如何与 Flutter 的状态管理解决方案集成
+一般的选择，大部分肯定会跟 Java 或者其他面向对象语言一样的先写抽象类接口，再写具体实现。
 
-在 Flutter 应用开发中，Repository 模式和状态管理是实现高效、可维护应用的两个重要组成部分。Repository 模式负责数据的获取和存储，而状态管理则处理 UI 和业务逻辑之间的交互。将这两者结合起来，可以创建出响应迅速、结构清晰的应用程序。本文将探讨如何将 Repository 模式与 Flutter 的主要状态管理解决方案（如 BLoC、Provider 和 Riverpod）集成。
-
-### Repository 模式概述
-
-Repository 模式的主要目的是将数据访问逻辑与业务逻辑分离。它封装了对数据源（如 API、数据库等）的访问，使得其他层（如 UI 层）不需要直接与数据源交互。通过这种方式，可以实现更好的代码组织和可测试性。
-
-#### Repository 的基本结构
-
-```dart
-abstract class WeatherRepository {
-  Future<Weather> getWeather({required String city});
-}
-
-class HttpWeatherRepository implements WeatherRepository {
-  final http.Client client;
-  final String apiKey;
-
-  HttpWeatherRepository({required this.client, required this.apiKey});
-
-  @override
-  Future<Weather> getWeather({required String city}) async {
-    // 实现 API 调用并返回 Weather 对象
-  }
-}
-```
+但是，在我看来，使用具体类也无可厚非。因为 Dart 语言的特性，你可以继承任意一个类，然后通过重写方法来达到目的。写 mock 的时候，直接用 mock 类继承你的具体类即可。所以，如果一个接口只定义了一个方法，那么可以省略抽象类，直接写具体类。
 
 ## Repository 与状态管理结合的解决方案
 
@@ -351,6 +335,7 @@ class WeatherScreen extends ConsumerWidget {
 另外，将 Repository 模式与 Flutter 的状态管理解决方案结合使用，可以有效地分离数据访问逻辑和 UI 状态管理。这种架构不仅提高了代码的可维护性，还增强了应用程序的可测试性。无论是使用 BLoC、Provider，还是 Riverpod，都可以根据项目需求选择合适的状态管理方案，以实现最佳的开发体验和应用性能。
 
 参考文章：
+
 - https://blog.csdn.net/gitblog_00068/article/details/139366383
 - https://flutter.ducafecat.com/pubs/state-management-packages
 - https://juejin.cn/post/7163925807893577735
