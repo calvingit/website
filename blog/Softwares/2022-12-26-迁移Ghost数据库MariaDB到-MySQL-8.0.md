@@ -79,9 +79,10 @@ sudo docker exec blog_mariadb_1 mysqldump --user ghost --password=ghost ghost > 
 ```bash
 sudo docker-compose up -d mysql
 ```
+
 这里会自动创建 `ghost`数据库，后续导入用到。
 
-6. 导入备份的数据，这里遇到个问题，通过  `docker exec`  导入失败，所以我先复制到容器内，然后进入容器 **bash**：
+6. 导入备份的数据，这里遇到个问题，通过 `docker exec` 导入失败，所以我先复制到容器内，然后进入容器 **bash**：
 
 ```bash
 sudo docker cp db_backup.sql  blog_mysql_1:/
@@ -101,7 +102,5 @@ mysql --user ghost --password=ghost ghost < /db_backup.sql
 ```bash
 sudo docker-compose down --remove-orphans && sudo docker-compose up -d
 ```
-
-
 
 至此，所有操作基本上完成了，再次访问博客应该没啥问题了。
