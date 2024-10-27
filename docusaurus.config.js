@@ -8,7 +8,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '文的技术乐园',
+  title: 'Wen的技术乐园',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
