@@ -10,7 +10,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config = {
   title: 'Wen的技术乐园',
   tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  favicon: 'favicon.ico',
 
   // Set the production url of your site here
   url: 'https://zhangwen.site',
@@ -79,7 +79,7 @@ const config = {
         title: '文的技术乐园',
         logo: {
           alt: 'zhangwen.site',
-          src: 'img/logo.svg',
+          src: 'logo.svg',
         },
         items: [
           { to: '/blog', label: '博客', position: 'left' },
