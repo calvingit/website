@@ -176,7 +176,7 @@ void main() {
 
 通过这种方式，你可以确保你的组件在实际的用户交互中表现如预期，同时也能够捕捉到潜在的bug。希望这些信息能帮助你更好地理解如何在Flutter中编写可测试的代码。
 
-## 7.  高阶组件（Higher-Order Components）
+## 7.  高阶组件
 
 创建高阶组件（HOC）来封装和复用跨多个组件的逻辑。这些组件接受一个组件作为参数，并返回一个新的组件，这个新组件增加了额外的逻辑或上下文。
 
@@ -207,7 +207,7 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-## 8. 属性传递（Props Passing）
+## 8. 属性传递
 
 通过属性（props）传递所有需要的数据和回调，而不是依赖于外部状态或全局变量。
 
@@ -232,7 +232,7 @@ class ParentComponent extends StatelessWidget {
 }
 ```
 
-### 9. 依赖注入（Dependency Injection）
+## 9. 依赖注入
 
 通过构造函数将依赖项注入组件，而不是在组件内部创建实例。
 
@@ -257,7 +257,7 @@ class ParentComponent extends StatelessWidget {
 }
 ```
 
-### 10. 避免直接的上下文依赖（Avoid Direct Context Dependency）
+## 10. 避免直接的BuildContext依赖
 
 不要在组件内部直接使用`BuildContext`来获取主题或其他依赖项，而是通过属性传递。
 
@@ -325,7 +325,7 @@ class ConfigurableListTile extends StatelessWidget {
 }
 ```
 
-## 12. 组件解耦（Decoupling Components）
+## 12. 组件解耦
 
 通过事件回调和数据流框架（如Provider, Riverpod, Bloc）来解耦组件之间的直接依赖。
 
