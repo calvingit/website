@@ -148,6 +148,15 @@ const config = {
         darkTheme: prismThemes.dracula,
         additionalLanguages: ['dart', 'ruby'],
       },
+      algolia: {
+        // The application ID provided by Algolia
+        appId: 'KAQ9XLK7X1',
+        // Public API key: it is safe to commit it
+        apiKey: 'eeb5ab1ba5276b3c01865511ba1ca412',
+        indexName: 'zhangwen',
+        // Optional: see doc section below
+        contextualSearch: true,
+      },
     }),
 };
 
