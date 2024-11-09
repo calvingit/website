@@ -34,6 +34,11 @@ const config = {
     locales: ['zh-Hans', 'en'],
   },
 
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
+
   presets: [
     [
       'classic',
@@ -89,7 +94,7 @@ const config = {
             position: 'left',
             label: '摸鱼精选',
           },
-          { to: '/about', label: '关于', position: 'right' },
+          { to: '/about', label: 'About', position: 'right' },
           {
             href: 'https://github.com/calvingit',
             label: 'GitHub',
@@ -132,10 +137,10 @@ const config = {
             ],
           },
           {
-            title: '更多',
+            title: 'More',
             items: [
               {
-                label: '关于',
+                label: 'About',
                 to: '/about',
               },
             ],
@@ -156,6 +161,9 @@ const config = {
         indexName: 'zhangwen',
         // Optional: see doc section below
         contextualSearch: true,
+      },
+      mermaid: {
+        theme: { light: 'neutral', dark: 'forest' },
       },
     }),
 };
