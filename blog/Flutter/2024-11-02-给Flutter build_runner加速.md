@@ -14,6 +14,8 @@ Flutter 的 dart sdk是不带反射功能的，导致社区需要开发一些注
 
 另外，你用的生成库越多，越影响生成速度。
 
+<!-- truncate -->
+
 常见的一些支持注解的库有：
 
 - [freezed](https://pub.dev/packages/freezed)
