@@ -76,7 +76,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: '文的技术乐园',
+        title: 'Wen的技术乐园',
         logo: {
           alt: 'zhangwen.site',
           src: 'logo.svg',
