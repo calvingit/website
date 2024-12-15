@@ -1,7 +1,7 @@
 ---
 title: Flutter 极简状态管理：基于 ValueNotifier 实现
-description: "Flutter 优化 API 错误响应：Result 模式实践指南"
-slug: flutter-result-pattern
+description: "Flutter 极简状态管理：基于 ValueNotifier 实现"
+slug: flutter-valuenotifier
 date: 2024-12-15
 tags: [Flutter]
 ---
@@ -61,7 +61,7 @@ Flutter 本身提供了一些基本的状态管理方式，如`setState`方法�
 - **GetX**：功能强大但概念较多，存在一定学习成本。
 - **Bloc**：适合大型应用，但对于简单场景可能过于复杂。
 - **Riverpod**：功能强大，但是学习曲线较陡峭。
-  
+
 
 ## 如何基于`ValueNotifier`实现状态管理？
 
