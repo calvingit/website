@@ -12,7 +12,7 @@ tags: [Flutter]
 
 <!-- truncate -->
 
-## 为什么不使用第三方状态管理管理方案？
+## 为什么不使用第三方状态管理方案？
 
 我不是劝大家放弃正在使用的第三方状态管理方案，如果当前用着顺手就没必要改变。
 我在不同的项目里也会选择不同的第三方状态管理方案，比如 Provider、GetX、Riverpod，我都有在项目中实际用过，不是说他们不好，这取决于项目的需求和个人的偏好。
@@ -193,43 +193,43 @@ class CounterWidget extends StatelessWidget {
 
 ## 最佳实践建议
 
-### 1. 状态管理
+1. 状态管理
 
-- 将相关状态组合在一起
-- 使用不可变状态模型
-- 实现 `copyWith` 方法便于状态更新
-- 避免过大的状态对象
+  - 将相关状态组合在一起
+  - 使用不可变状态模型
+  - 实现 `copyWith` 方法便于状态更新
+  - 避免过大的状态对象
 
-### 2. 性能优化
+2. 性能优化
 
-- 合理拆分状态粒度
-- 使用多个 `ValueListenableBuilder` 而不是一个大的状态
-- 避免频繁的状态更新
+  - 合理拆分状态粒度
+  - 使用多个 `ValueListenableBuilder` 而不是一个大的状态
+  - 避免频繁的状态更新
 
-### 3. 代码组织
+3. 代码组织
 
-- 遵循单一职责原则
-- 将业务逻辑从 UI 中分离
-- 使用服务层封装外部依赖
-- 统一状态更新模式
+  - 遵循单一职责原则
+  - 将业务逻辑从 UI 中分离
+  - 使用服务层封装外部依赖
+  - 统一状态更新模式
 
-### 4. 错误处理
+4. 错误处理
 
-```dart
-class SafeValueNotifier<T> extends ValueNotifier<T> {
-  final void Function(Object error)? onError;
-
-  SafeValueNotifier(T value, {this.onError}) : super(value);
-
-  void safeUpdate(T Function() updater) {
-    try {
-      value = updater();
-    } catch (e) {
-      onError?.call(e);
+  ```dart
+  class SafeValueNotifier<T> extends ValueNotifier<T> {
+    final void Function(Object error)? onError;
+  
+    SafeValueNotifier(T value, {this.onError}) : super(value);
+  
+    void safeUpdate(T Function() updater) {
+      try {
+        value = updater();
+      } catch (e) {
+        onError?.call(e);
+      }
     }
   }
-}
-```
+  ```
 
 ## 适用场景
 
