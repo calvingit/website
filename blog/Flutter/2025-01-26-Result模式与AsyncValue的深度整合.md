@@ -91,7 +91,7 @@ extension on ProfileError {
 }
 ```
 
----
+
 
 ## 二、模式协作流程图
 
@@ -105,7 +105,7 @@ graph TD
     B -->|转换业务错误| E[用户友好提示]
 ```
 
----
+
 
 ## 三、协同优势分析
 
@@ -137,7 +137,7 @@ AsyncValue<UserProfile> _convertResult(Result<UserProfile, ProfileError> result)
 }
 ```
 
----
+
 
 ## 四、UI 层统一处理
 
@@ -186,7 +186,7 @@ class _ErrorView extends StatelessWidget {
 }
 ```
 
----
+
 
 ## 五、调试与错误追踪
 
@@ -217,7 +217,7 @@ void debugPrintState() {
 }
 ```
 
----
+
 
 ## 六、最佳实践建议
 
@@ -282,7 +282,7 @@ void debugPrintState() {
    )
    ```
 
----
+
 
 ## 七、架构演进方向
 
@@ -316,7 +316,7 @@ class IOSProfileError implements AppError { /* ... */ }
 class AndroidProfileError implements AppError { /* ... */ }
 ```
 
----
+
 
 通过 Result 模式与 AsyncValue 的协同使用，我们实现了：
 

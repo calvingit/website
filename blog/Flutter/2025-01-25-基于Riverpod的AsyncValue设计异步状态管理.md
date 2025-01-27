@@ -62,7 +62,7 @@ R when<R>({
 - 强制处理所有状态分支
 - 类型安全的模式匹配
 
----
+
 
 ## 二、独立实现 AsyncValue 体系
 
@@ -109,7 +109,7 @@ class AsyncController<T> extends ValueNotifier<AsyncValue<T>> {
 }
 ```
 
----
+
 
 ## 三、与 Flutter 深度集成
 
@@ -178,7 +178,7 @@ class AsyncStateBuilder<T> extends StatelessWidget {
 }
 ```
 
----
+
 
 ## 四、高级应用场景
 
@@ -213,7 +213,7 @@ mixin RetryController<T> on AsyncController<T> {
 }
 ```
 
----
+
 
 ## 五、性能优化策略
 
@@ -246,7 +246,7 @@ class CachedAsyncController<T> extends AsyncController<T> {
 }
 ```
 
----
+
 
 ## 六、架构集成方案
 
@@ -276,7 +276,7 @@ class ProfileController extends GetxController {
 }
 ```
 
----
+
 
 ## 七、总结与最佳实践
 
