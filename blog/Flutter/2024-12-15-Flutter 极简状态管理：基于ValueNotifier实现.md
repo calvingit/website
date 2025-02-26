@@ -182,7 +182,7 @@ class CounterWidget extends StatelessWidget {
 当计数器的值发生变化时，`ValueListenableBuilder`会自动重建 `Text` 组件，显示新的计数器值。
 
 **PS**：有时候用`ValueListenableBuilder`包裹部件挺麻烦的，不过如果在 VS Code 或者 Android Studio 中使用快捷键调出上下文菜单，可以选择**Wrap with StreamBuilder**，然后再把`StreamBuilder`修改为`ValueListenableBuilder`就行。
-![None](https://cdn.zhangwen.site/uPic/1*eZ980GDkpjdKIv7wf5U-qQ.png)
+
 我推荐保持简单，所有情况都使用`ValueNotifier`和`ValueListenableBuilder`，不过如果决定暴露`Stream`、`Future`或者`ChangeNotifier`，也有对应的构建器部件：
 
 - **Stream**：使用[StreamBuilder](https://www.youtube.com/watch?v=MkKEWHfy99Y)。
