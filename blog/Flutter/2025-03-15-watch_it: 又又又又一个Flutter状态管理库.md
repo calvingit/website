@@ -1,5 +1,5 @@
 ---
-title: watch_it: 又又又又一个Flutter状态管理库
+title: "watch_it: 又又又又一个Flutter状态管理库"
 description: "watch_it, get_it, setState, state manage, riverpod, GetX, Provider"
 slug: flutter-watch-it
 date: 2025-03-15
