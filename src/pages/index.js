@@ -26,17 +26,17 @@ function Welcome() {
   return (
     <div>
       <Heading as='h1' className='hero__title'>
-        你好, 我是Wen👋
+        嗨，我是张文 🌟
       </Heading>
       <div>
-        <p className='hero__subtitle'>欢迎来到我的技术乐园! 🎡 </p>
-        <p>在这里, 你会看到我对App原生、跨平台开发的总结笔记。 💭</p>
-        <p>让我们一起在这个瞬息万变的 AI 世界里学习、成长、创新吧!🚀</p>
-        <p>祝你在这里读得开心, 玩得开心! 🥳</p>
+        <p className='hero__subtitle'>热爱技术，热爱创造，欢迎来到我的数字花园！🌱</p>
+        <p>这里是我探索移动应用编程世界的一方天地，从原生到跨平台，记录每一步成长。📱</p>
+        <p>在这个 AI 与创新交织的时代，让我们一起拥抱变化，突破边界！💡</p>
+        <p>无论你是初学者还是老手，都能在这里找到属于自己的启发。✨</p>
       </div>
       <div className={styles.buttons}>
         <Link className='button button--primary button--lg' to='/blog'>
-          Explore
+          开启探索
         </Link>
       </div>
     </div>

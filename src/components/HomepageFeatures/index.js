@@ -4,42 +4,47 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: '三个娃奶爸',
+    title: '育儿夜吟',
     Svg: require('@site/static/img/dad-of-three.svg').default,
     description: (
       <>
-        三个熊孩子的驯兽师 🎪, 老三是个小宝龙🦕
+        三宝闹腾驯兽忙，龙宝幺儿最逞强。
         <br />
-        家庭CEO, 专职调解"玩具分配"矛盾 🧸
+        夜啼声中练佛心，深夜泡奶伴月光。
         <br />
-        睡眠是什么? 我只知道深夜泡奶行动 🦉💤
+        育儿日记添新页，岁月沧桑写担当。
+        <br />
+        披星戴月终不悔，父爱如山自巍昂。
       </>
     ),
   },
   {
-    title: 'App开发狂',
+    title: '代码咏怀',
     Svg: require('@site/static/img/app-developer.svg').default,
     description: (
       <>
-        代码成瘾患者, 移动应用造梦师 📱✨
+        代码成诗指尖舞，Bug化蝶绕梁飞。
         <br />
-        批量Bug制造者, 用户体验强迫症 🐛🔫
+        AI 辅佐思路开，咖啡续命战晨晖。
         <br />
-        AI 编程使用冠军, 咖啡续命大师 ☕️💻
+        用户需求深挖掘，产品匠心永不违。
         <br />
+        晨昏颠倒终不悔，技术巅峰勇攀登。
       </>
     ),
   },
   {
-    title: '数码狂热者',
+    title: '极客铭志',
     Svg: require('@site/static/img/digital-enthusiast.svg').default,
     description: (
       <>
-        科技界的松鼠🐿️, 囤积各种电子设备⌚️💻
+        数码松鼠囤货忙，苹果设备映眸光。
         <br />
-        智能家居梦想家, 树莓派终极吃灰家 🏠🗣️
+        树莓派下积灰厚，智能家居梦中藏。
         <br />
-        妻子眼中的"useless gadgets"收藏家 🤖🙄
+        新品尝鲜如猎豹，经典设备似老友。
+        <br />
+        科技之美心底狂，极客精神永流芳。
       </>
     ),
   },
