@@ -38,8 +38,27 @@
 .backgroundImage {
   /* height: 600;
   width: 600; */
-  max-width: 100%;
+  max-width: 50%; /* Adjust max-width for larger screens */
   height: auto;
+  flex-shrink: 0; /* Prevent image from shrinking too much */
+}
+
+/* 媒体查询：在中等屏幕尺寸下垂直堆叠 */
+@media screen and (max-width: 996px) {
+  .headerSection {
+    flex-direction: column;
+    align-items: center; /* Center items when stacked */
+    text-align: center; /* Center text when stacked */
+  }
+
+  .backgroundImage {
+    margin-top: 2rem; /* Add space between text and image */
+    max-width: 70%; /* Allow image to be larger on medium screens */
+  }
+
+  .buttons {
+    justify-content: center; /* Center button when stacked */
+  }
 }
 
 /* 媒体查询：在手机竖屏时隐藏右边的元素 */

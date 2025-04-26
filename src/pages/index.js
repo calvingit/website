@@ -26,7 +26,7 @@ function Welcome() {
   return (
     <div>
       <Heading as='h1' className='hero__title'>
-        嗨，我是张文 🌟
+        Hi，我是张文👏
       </Heading>
       <div>
         <p className='hero__subtitle'>热爱技术，热爱创造，欢迎来到我的数字花园！🌱</p>
