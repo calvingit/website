@@ -36,6 +36,9 @@ const config = {
 
   markdown: {
     mermaid: true,
+    remarkRehypeOptions: {
+      footnoteLabel: '参考资料',
+    },
   },
   themes: ['@docusaurus/theme-mermaid'],
 
