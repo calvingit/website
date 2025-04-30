@@ -6,12 +6,6 @@ date: 2025-03-23
 tags: [iOS]
 ---
 
-:::tip
-本文由 Gemini DeepResearch 辅助撰写。
-:::
-
-## 引言与背景
-
 近几年，短视频应用的迅猛发展和普及为 iOS 开发者带来了前所未有的挑战，尤其是高效、专业的音视频处理成为 iOS 开发中不可或缺的一环。
 
 > 根据中国互联网络信息中心（CNNIC）发布第 53 次《中国互联网络发展状况统计报告》，截至 2023 年 12 月，我国网络视频用户规模达 10.67 亿人，占网民整体的 97.7%。其中短视频用户规模达 10.53 亿人，较 2022 年 12 月增长 4145 万人，占网民整体的 96.4%。中国短视频用户规模持续增长，且占整体网民比例逐年提高，显示出短视频已经成为中国网民日常娱乐和信息获取的重要方式。我国短视频用户规模占比最大的是第一梯队的抖音、快手、视频号，占比为 70.04；其次是第二梯队微博、小红书、西瓜视频、B 站等，占比为 25.86%。海外市场中，TikTok 占据 40%的短视频平台市场份额，YouTube Shorts 和 Instagram Reels 各占 20%。
@@ -638,3 +632,7 @@ FFmpeg 以其容器、数据、分步骤、分层、模块和接口的设计理�
 - [FFmpeg Documentation](https://ffmpeg.org/documentation.html)
 - [FFmpeg iOS 编译指南](https://trac.ffmpeg.org/wiki/CompilationGuide/iOS)
 - [FFmpegKit GitHub](https://github.com/arthenica/ffmpeg-kit)
+
+:::tip
+本文由 Gemini 2.5 Pro DeepResearch 辅助撰写。
+:::

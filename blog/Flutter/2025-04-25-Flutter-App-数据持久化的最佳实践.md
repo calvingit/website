@@ -6,10 +6,6 @@ date: 2025-04-25
 tags: [Flutter]
 ---
 
-:::tip
-本文由 Gemini DeepResearch 辅助撰写。
-:::
-
 在移动应用开发中，**数据持久化**（Data Persistence）指的是将数据安全可靠地存储在设备本地，以便在应用会话之间甚至设备重启后依然可以访问。
 在 Flutter 应用中，数据持久化不仅关乎用户体验的连贯性，也直接关系到应用功能的完整性与专业度。
 
@@ -265,12 +261,14 @@ Future<String> readFile(String fileName) async {
 ### 关键分层
 
 1. **Repository 层（业务逻辑接口）**
+
    - 暴露统一 API，如 `saveUserProfile(User user)`、`loadUserProfile()`。
    - 屏蔽存储实现细节。
 
 2. **Storage Abstraction 层（存储接口）**
+
    - 定义抽象存储接口 `StorageService`。
-   - 支持灵活切换后端（Hive、Isar、Sqflite等）。
+   - 支持灵活切换后端（Hive、Isar、Sqflite 等）。
 
 3. **具体存储实现层（Storage Engine）**
    - 基于选定技术（如 Hive、Isar、Sqflite）实现持久化逻辑。
@@ -338,3 +336,7 @@ class HiveStorageService implements StorageService {
 7. [Persistent storage architecture: SQL - Flutter Documentation](https://docs.flutter.dev/app-architecture/design-patterns/sql)
 8. [ObjectBox](https://objectbox.io)
 9. [Isar](https://isar.dev/)
+
+:::tip
+本文由 Gemini DeepResearch 辅助撰写。
+:::
